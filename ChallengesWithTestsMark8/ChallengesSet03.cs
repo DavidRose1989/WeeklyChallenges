@@ -12,15 +12,15 @@ namespace ChallengesWithTestsMark8
         {
 
 
-            foreach (var item in vals)
+            foreach (var item in vals) //filtering through each item in array vals to find false.
             {
-                if (item == false)
+                if (item == false) //if the item is false
                 {
-                    return true;
+                    return true; //you return true that it is false.
                 }
 
             }
-            return false;
+            return false;  //You will return bool of false.
 
         }
 
